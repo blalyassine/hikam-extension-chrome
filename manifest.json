@@ -1,0 +1,10 @@
+{
+  "name": "Hikam",
+  "description": "Extension Hikam in every 60 seconds",
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["activeTab"]
+}
